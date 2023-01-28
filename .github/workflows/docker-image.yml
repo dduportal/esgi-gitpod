@@ -31,6 +31,6 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: .
-          file: .gitpod.Dockerfile
+          file: Dockerfile
           push: ${{ github.ref == 'refs/heads/main' }}
           tags: ghcr.io/dduportal/esgi-gitpod:latest
