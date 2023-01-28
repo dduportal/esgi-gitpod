@@ -1,0 +1,3 @@
+= Environnement de travail GitPod pour ESGI
+
+Ce dépôt contient le nécessaire pour configurer GitPod dans le cours https://github.com/dduportal/esgi-containers-ci-cd[].

@@ -1,0 +1,16 @@
+---
+# Multiple projects are expected, so we specify the "base directory" (e.g. "/workspace")
+workspaceLocation: "."
+# Custom Docker Image
+image: ghcr.io/dduportal/esgi-gitpod
+  ## Uncomment to build image from source
+  #file: Dockerfile
+tasks:
+  - name: Use "main" as default branch for new git repositories
+    before: git config --global init.defaultBranch main
+    # Clean up terminal after running tasks
+    command: clear
+vscode:
+  extensions:
+    - shellcheck
+...
