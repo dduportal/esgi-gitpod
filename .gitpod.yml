@@ -13,4 +13,5 @@ tasks:
 vscode:
   extensions:
     - shellcheck
+    - hadolint
 ...
