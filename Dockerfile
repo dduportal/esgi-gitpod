@@ -10,6 +10,8 @@ RUN apt-get update \
     fortune \
     fortunes \
     sl \
+  && curl -sSL https://github.com/hadolint/hadolint/releases/download/v2.12.0/hadolint-Linux-x86_64 -o /usr/local/bin/hadolint \
+  && chmod a+x /usr/local/bin/hadolint \
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/*
 
