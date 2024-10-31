@@ -12,6 +12,7 @@ tasks:
     command: clear
 vscode:
   extensions:
-    - shellcheck
-    - hadolint
+    - ms-azuretools.vscode-docker
+    - timonwong.shellcheck
+    - exiasr.hadolint
 ...
